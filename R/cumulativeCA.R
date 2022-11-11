@@ -109,7 +109,7 @@ cumulativeCA = function (file = NULL, Filetype = c("MAF", "VCF"), Pfile = NULL,
     ix = is.na(geneList1$Length) | grepl("_", geneList1[, chr])
     geneList1tmp1 = geneList1[!ix, ]
     GinNs1 = intersect(geneListtmp1[, Hugo], geneList1tmp1[, Hugo])
-    InNs = intersect(allGnames, geneList1tmp1[, Hugo])
+    InNs = intersect(geneList1tmp1[, Hugo],allGnames)
     rownames(geneList1tmp1) = geneList1tmp1[, Hugo]
     for (i in 1:ngl)
 	{
