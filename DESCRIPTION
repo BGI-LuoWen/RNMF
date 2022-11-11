@@ -2,7 +2,7 @@ Package: RNMF
 Type: Package
 Title: An optimized Non-Negative Matrix Factorization in cancer research.
 Version: 2.1.0
-Date: 2022-06-30
+Date: 2022-11-11
 Author: Wen Luo, Zhenzhang Li
 Maintainer: Wen Luo <luowengjs2018@foxmail.com>
 Description: We present an optimized non-Negative Matrix Factorisation (NMF) based on R to extract the mutational singature in cancer research. In addition the NMF model selection also consider the balance of the loss function and silhouette coefficient.
